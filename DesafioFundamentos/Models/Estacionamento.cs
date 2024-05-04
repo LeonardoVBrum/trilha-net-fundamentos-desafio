@@ -57,10 +57,10 @@ namespace DesafioFundamentos.Models
             {
                 Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
             }
-        }
+            }
 
-        public void ListarVeiculos()
-        {
+            public void ListarVeiculos()
+            {
             
             if (veiculos.Any())
             {   
